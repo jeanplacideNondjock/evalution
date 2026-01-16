@@ -41,7 +41,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ products, testimonial
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  onError={() => {  // ✅ Pas de paramètre 'e' inutilisé
+                  onError={() => {  //  Pas de paramètre 'e' inutilisé
                     console.error(`Image non trouvée: ${product.imageSrc}`);
                   }}
                 />
@@ -84,7 +84,7 @@ const ProductShowcase: React.FC<ProductShowcaseProps> = ({ products, testimonial
                     alt={testimonial.author}
                     fill
                     className="object-cover"
-                    onError={() => {  // ✅ Pas de paramètre 'e' inutilisé
+                    onError={() => {  //  Pas de paramètre 'e' inutilisé
                       console.error(`Image testimonial non trouvée: ${testimonial.authorImage}`);
                     }}
                   />

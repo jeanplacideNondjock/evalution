@@ -2,6 +2,7 @@
 
 
 import Image from "next/image";
+import Link from "next/link";
 
 const features = [
   "Donec mattis porta eros,let aliquet finibus ri",
@@ -81,10 +82,11 @@ export default function HeroInterior() {
               </div>
             ))}
           </div>
-
+            <Link href={"/"}>
           <button className="mt-8 px-8 py-3 bg-black text-white rounded-full hover:bg-gray-900 transition">
             Explore
           </button>
+          </Link>
         </div>
 
       </div>
