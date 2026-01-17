@@ -88,7 +88,6 @@ export default function HomePage() {
   return (
     <div>
       {/* Section 1 : Chaises et témoignages */}
-       <Navbar/>
        <HeroInterior/>
        < ProductHighlight/>
       <ProductShowcase 
